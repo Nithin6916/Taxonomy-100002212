@@ -1,0 +1,22 @@
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+
+# Data (DO NOT COMMIT)
+data/raw/
+data/interim/
+data/processed/
+
+# Large artifacts
+*.mmap
+*.parquet
+*.npy
+
+# Outputs: ignore everything
+outputs/**
+
+# ...but keep final deliverables
+!outputs/
+!outputs/final/
+!outputs/final/**

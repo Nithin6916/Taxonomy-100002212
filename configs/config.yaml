@@ -1,0 +1,35 @@
+paths:
+  raw_json: "data/raw/icecat_data_train.json"
+
+  features_parquet: "data/interim/features.parquet"
+  labels_parquet: "data/interim/labels.parquet"
+  docs_parquet: "data/interim/docs.parquet"
+  product_ids_npy: "data/processed/product_ids.npy"
+
+  emb_mmap: "data/processed/emb_bge_m3.f32.mmap"
+  emb_dim: 1024
+
+  emb_pca_mmap: "data/processed/emb_pca256.f32.mmap"
+  pca_dim: 256
+
+  micro_labels: "data/processed/micro_labels.npy"
+  micro_ids: "data/processed/micro_ids.npy"
+  micro_centroids: "data/processed/micro_centroids.npy"
+
+  final_clusters: "data/processed/final_cluster_labels.npy"
+
+  metrics_json: "outputs/metrics.json"
+  cluster_report_csv: "outputs/cluster_report.csv"
+
+params:
+  model_name: "BAAI/bge-m3"
+  max_seq_length: 256
+  embed_batch: 256
+
+  ipca_batch: 4096
+
+  birch_threshold: 0.27
+
+  centroid_knn: 80
+  centroid_sim_quantile: 0.85
+  leiden_resolution_grid: [2.0, 3.0, 4.0, 6.0, 8.0, 10.0, 12.0]
