@@ -68,7 +68,7 @@ Interpretation:
 This repo includes a lightweight web demo that assigns uploaded products (100–300 rows) into the learned taxonomy clusters.
 
 ### 1) Export inference artifacts (one-time)
-```bat
+
 python -m src.steps.11_export_inference_artifacts
 
 ## Repository Structure
