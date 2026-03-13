@@ -86,7 +86,7 @@ Interpretation:
 ## Acknowledgements
 
 **Project Supervisor:** Dr. Binh Vu (@binhvd)
-- **For guidance on applying unsupervised learning and clustering techniques to e-commerce taxonomy discovery.
+- For guidance on applying unsupervised learning and clustering techniques to e-commerce taxonomy discovery.
 
 **Author:** Nithin Kiran
-- **Created as part of the Taxonomy Unsupervised Learning project at **SRH University of Applied Sciences Heidelberg**.
+- Created as part of the Taxonomy Unsupervised Learning project at **SRH University of Applied Sciences Heidelberg**.
